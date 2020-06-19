@@ -3,7 +3,16 @@ body {
 }
 
 h1 {
-    color: #222324;
+    font-family:Arial,sans-serif;
+}
+
+h2 {
+    font-family:Arial,sans-serif;
+}
+
+p{
+    font-family:Arial,sans-serif;
+    line-height: 1.7;
 }
 
 a {
@@ -20,11 +29,12 @@ a {
 
 #ContentPadding {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Nav bar */
 
-ul {
+.unorderedListNavBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,11 +42,11 @@ ul {
     background-color: #1b2b36;
 }
 
-li {
+.listNavBar {
     float: right;
 }
 
-li a {
+.aNavBar {
     display: block;
     color: #ffffff;
     text-align: center;
